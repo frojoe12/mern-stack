@@ -53,3 +53,11 @@ create folder - config // used for global settings
 file - dedault.json
 
 basic express setup
+
+# user API routes & JWT auth
+
+expressValidator - validate email empty string etc
+
+# jwt
+
+jwt.io

@@ -6,9 +6,10 @@ const connectDB = async () => {
   try {
     await mongoose.connect(db, {
       useNewUrlParser: true, // add to stop deprecation warning
+      useCreateIndex: true,
       useUnifiedTopology: true, // add to stop deprecation warning
     })
-    // console.log(`MongoDB Connected...`)
+    console.log(`MongoDB Connected...`)
   } catch (err) {
     console.error(err.message)
     process.exit(1) // exit process with failure
