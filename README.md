@@ -45,3 +45,11 @@ npm run server
 
 POSTMAN
 http://localhost:5000 - send to check is working
+
+# connect to database
+
+get connection string
+create folder - config // used for global settings
+file - dedault.json
+
+basic express setup
