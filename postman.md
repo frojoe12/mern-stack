@@ -7,7 +7,7 @@ body:none
 
 Headers:
 KEY: x-auth-token
-VALUE: jwt response when logging in
+VALUE: use jwt response received when logging in
 
 POST request
 Headers
